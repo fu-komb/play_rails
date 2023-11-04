@@ -1,3 +1,6 @@
-h1 hogehoge
+h1 Articles
 
-= @hugahuga
+ul
+  - @articles.each do |article|
+    li
+      = article.title
